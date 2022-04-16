@@ -38,6 +38,6 @@ Have fun.
 + launch experiment on GPU2 only (within tmux-session 'G2') - only GPU2 is occuiped.
 
 + Customized tmux status bar:
-top: current running command with arguments.
-bottom (from left to right): \[tmux-session ID-PID\], available sessions, GPU usage, CPU and RAM status.
+  + top: current running command with arguments.
+  + bottom (from left to right): \[tmux-session ID-PID\], available sessions, GPU usage, CPU and RAM status.
 
