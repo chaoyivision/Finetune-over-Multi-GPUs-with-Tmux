@@ -18,4 +18,4 @@ Auto helper script to assign individual tmux-session for each local GPU (auto sc
 
 # Setup
 Do it once and forget it then.
-1. Install Tmux and be familiar with it. Here is another warmup (post)[https://www.notion.so/chaoyivision/Remote-Programming-Tips-Tools-02bc5a1251d64ac0846b28eef9b67155#ec346bf4ecc546e2b7856c2f14aef76e].
+1. Install Tmux and be familiar with it. Here is another warmup [post](https://www.notion.so/02bc5a1251d64ac0846b28eef9b67155#ec346bf4ecc546e2b7856c2f14aef76e).
