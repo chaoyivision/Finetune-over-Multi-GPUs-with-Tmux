@@ -39,5 +39,5 @@ Have fun.
 
 + Customized tmux status bar:
   + top: current running command with arguments.
-  + bottom (from left to right): \[tmux-session ID-PID\], available sessions, GPU usage, CPU and RAM status.
+  + bottom (from left to right): \[Session ID - PID\], available sessions, GPU usage, CPU and RAM status.
 
