@@ -13,7 +13,7 @@ Auto helper script to assign individual tmux-session for each local GPU (auto sc
 + Very easy. We just auto-assign 1 tmux-session for 1 GPU (on login) and restrict the avaiable_gpu_id within each tmux-session scope. 
 + After then, for example, we could simply use "tmux attach -t G0" to swith to the tmux-session *'G0'* bond with *'GPU 0'*. 
 + Now, the only available gpu (under this tmux-session 'G0') is 'GPU0', and there is no need in typing *"CUDA_VISIBLE_DEVICES=0 python train.py" or "python train.py --gpu 0"* any more. You can simply treat it as a machine with only 1 gpu equipped, and launch the experiment/finetuning manually.
-+ To quickly switch to another tmux-session (bond with another GPU), you could use this shortcut [https://stackoverflow.com/questions/32790061/switch-between-sessions-in-tmux]. 
++ To quickly switch to another tmux-session (bond with another GPU), you could use this [shortcut](https://stackoverflow.com/questions/32790061/switch-between-sessions-in-tmux). 
 
 
 ### TBD
