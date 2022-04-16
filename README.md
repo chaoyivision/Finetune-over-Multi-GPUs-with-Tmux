@@ -35,8 +35,9 @@ Have fun.
 
 # DEMO
 ![demo](https://user-images.githubusercontent.com/79236307/163664538-b94e64f3-9091-4f1e-bdc9-ed886bf92d23.png)
-launch experiment on GPU2 only (within tmux-session 'G2') - only GPU2 is occuiped.
-Customized tmux status bar:
++ launch experiment on GPU2 only (within tmux-session 'G2') - only GPU2 is occuiped.
+
++ Customized tmux status bar:
 top: current running command with arguments.
 bottom (from left to right): \[tmux-session ID-PID\], available sessions, GPU usage, CPU and RAM status.
 
