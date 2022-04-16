@@ -19,3 +19,9 @@ Auto helper script to assign individual tmux-session for each local GPU (auto sc
 # Setup
 Do it once and forget it then.
 1. Install Tmux and be familiar with it. Here is another warmup [post](https://www.notion.so/02bc5a1251d64ac0846b28eef9b67155#ec346bf4ecc546e2b7856c2f14aef76e).
+2. Download script [startup.sh](https://github.com/chaoyivision/Finetune-over-Multi-GPUs-with-Tmux/blob/main/startup.sh) into '~/.tmux', and change its accessible mode by *chmod*.
+3. Set it auto-run when login or reboot, according to this [answer](https://stackoverflow.com/questions/12973777/how-to-run-a-shell-script-at-startup)
+```
+#crontab -e
+@reboot ~/.tmux/startup.sh
+```
