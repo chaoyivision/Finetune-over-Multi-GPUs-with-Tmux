@@ -26,6 +26,8 @@ Do it once and forget it then.
 @reboot ~/.tmux/startup.sh
 ```
 
+Or, you could simple run this script within ~/.bashrc or ~/.zshrc (everytime a new terminal is created)
+
 # To Use it?
 Suppose there are 4 gpus available on your local side, the tmux-sessions would be automatically initialized and named from 'G0' to 'G3'. You could now simply do:
 ```
